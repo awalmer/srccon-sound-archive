@@ -1,0 +1,8 @@
+Drop your audio files (mp3, wav, m4a, ogg) directly into this folder.
+
+Then reference the exact filename in the "file" field of the matching
+entry in the SUBMISSIONS list inside index.html.
+
+Example: if you drop "kettle-then-silence.mp3" here, set:
+  file: "kettle-then-silence.mp3"
+in that submission's entry.

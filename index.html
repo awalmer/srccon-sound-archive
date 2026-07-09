@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Rough Mix Archive</title>
+<title>SRCCON 2026: Sound Play Workshop</title>
 <style>
 
   /* ============================================================
@@ -16,7 +16,7 @@
      ============================================================ */
 
   :root {
-    --bg: #0A0A0A;
+    --bg: #100f0f;
     --surface: #161616;
     --surface-raised: #1E1E1E;
     --ink: #F7F7F5;
@@ -82,8 +82,9 @@
   }
   .header-text { max-width: 640px; }
   .eyebrow {
-    font-size: 12px;
-    letter-spacing: 0.14em;
+    font-size: 13px;
+    letter-spacing: 0.13em;
+    line-height: 1.7;
     text-transform: uppercase;
     color: var(--ink-faint);
     margin: 0 0 12px;
@@ -95,8 +96,8 @@
     letter-spacing: -0.01em;
   }
   .sub {
-    font-size: 15px;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 1.8;
     color: var(--ink-soft);
     margin: 0;
   }
@@ -296,9 +297,9 @@
 
   <div class="header">
     <div class="header-text">
-      <p class="eyebrow">A living archive &middot; No AI touched this</p>
-      <h1 class="title">The Rough Mix Archive</h1>
-      <p class="sub">Sonic montages built by hand at the Sound Play workshop. Kept a little rough on purpose.</p>
+      <p class="eyebrow">SRCCON 2026 | Sound play and rebellious human-made craft</p>
+      <h1 class="title">SRCCON26: Sound Play Workshop Archive</h1>
+      <p class="sub">Sonic creations made by partipants at SRCCON on July 9th, 2026.</p>
     </div>
     <button class="theme-btn" id="themeToggle" aria-pressed="false">
       <span class="theme-dot" aria-hidden="true"></span>
@@ -346,23 +347,23 @@ const SUBMISSIONS = [
   // file attached (a short demo tone) so you can see and hear exactly how
   // a finished card behaves. Delete it once you have real submissions.
   {
-    title: "Example — Working Demo",
-    author: "Author Name",
-    table: "Table 1",
-    prompt: "Morning, no words",
-    description: "This card has a real audio file attached — press play to hear it. This is what a finished entry looks like.",
+    title: "Title of Sound Work",
+    author: "Aura Walmer",
+    table: "Key words",
+    prompt: "prompt if chosen",
+    description: "Description of the sound work.",
     file: "example-demo.mp3"
   },
   // This second entry is an empty template — notice it has no "file" set,
   // so it shows the red "no audio linked" message instead of a player.
   // Copy this block for each new submission you add.
   {
-    title: "Untitled Submission",
+    title: "Another Submission",
     author: "Author Name",
-    table: "Table #",
-    prompt: "Audio postcard",
-    description: "Replace this with the real title and description once you add an audio file to the /audio folder.",
-    file: ""
+    table: "Key words",
+    prompt: "prompt, e.g. 'audio postcard'",
+    description: "Description of the sound work.",
+    file: "example-demo.mp3"
   },
 ];
 
